@@ -36,7 +36,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <textarea id="fileContent" name="fileContent" class="form-control" cols="20" rows="6"></textarea>
           
         </div>
+        <div class="form-group">
         <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </div>
       </form>
  </body>
  </html>
